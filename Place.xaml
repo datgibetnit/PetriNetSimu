@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PetriNetSimu.Place"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="85">
+    <Canvas>
+        <TextBlock Name="placeName" />
+        <Ellipse Name="shape" Canvas.Top="20" Canvas.Left="5" Stroke="Black"  Fill="White" Width="80" Height="80" />
+        <Line X1="0" X2="5" Y1="55" Y2="60" Stroke="Black" StrokeThickness="3"/>
+        <Line X1="0" X2="5" Y1="60" Y2="60" Stroke="Black" StrokeThickness="3"/>
+        <Line X1="0" X2="5" Y1="65" Y2="60" Stroke="Black" StrokeThickness="3"/>
+        <TextBlock Name="numberToken" Canvas.Left="37" Canvas.Top="50" />
+    </Canvas>
+</UserControl>
